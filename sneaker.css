@@ -1,0 +1,226 @@
+.intro{
+    margin-left: 10px;
+}
+.intro > h3{
+   font-family: TeXGyreAdventor;
+}
+.line > hr{
+    border: 1px solid gray;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.in-list{
+    display: inline-block;
+    position: relative;
+    margin: 0 50px 0 50px;
+    border: 2px solid black;
+    width: 100px;
+    
+}
+.in-list > button{
+    padding-top: 8px;
+    width: 100%;
+    background-color: white;
+}
+.in-list > button > img {
+    margin-left: 10px;
+}
+.dropdown-option {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    width: 100%;
+    text-align: center;
+}
+  
+.in-list:hover .dropdown-option {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.dropdown-option > a{
+    color: black;
+    border: 1px solid black;
+    width: 100%;
+}
+@media(max-width:911px){
+    .in-list{
+        margin: 0 25px 0 25px;
+        border: 2px solid black;
+        width: 100px;
+       
+    }
+}
+.limited {
+    position: relative;
+    width: 100%;
+    background-color: black;
+    margin-top: 25px;
+}
+.limited > p{
+    color: white;
+    font-size: 20px;
+}
+.left{
+    margin-top: 40px;
+    margin-right: 5px;
+    padding-left: 60px;
+    height: 370px;
+    margin-bottom: 40px;
+}
+
+
+.right{
+    margin-left: 60px;
+    padding-top: 50px;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 992px) {
+    .right{
+        padding-top: 10px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .left{
+        /* margin-right: 5px; */
+        height: 200px;
+    }
+}
+@media only screen and (max-width:1200px){
+    .right{
+        padding-top: 10px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .left{
+        /* margin-right: 5px; */
+        padding-right: 60px;
+        height: 200px;
+    }
+}
+
+.top{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 10px;
+}
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+marquee > p{
+    background: linear-gradient(160deg,blue,green,pink);
+    -webkit-background-clip: text;
+    color: transparent;
+    height: 100%;
+    font-size: 32px;
+}
+.bottom{
+    margin-top: 15px;
+}
+/* .item{
+    margin-top: 10px;
+    height: 300px;
+} */
+.img-l{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-price{
+    padding-bottom: 5px;
+}
+.price_sell{
+    text-align: center;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+.out-talk{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.name{
+    color: black;
+}
+.duct-link:active, .duct-link:focus {
+    outline: 0;
+    border: none;
+    -moz-outline-style: none;
+  }
+.duct-link{
+   
+    padding-top: 60px;
+}
+.duct-link:visited{
+    outline: none;
+}
+.duct{
+    transform: scale(0.95);
+    transition: box-shadow 0.5s, transform 0.5s;
+    z-index: -1;
+}
+.slick-list{
+    height: 390px;
+}
+.duct:hover{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transform: scale(1);
+}
+.brand{
+    color:black;
+}
+.sneaker{
+    display: flex;
+    flex-direction: column;
+}
+.popular{
+    width: 100%;
+    background-color: black;
+    margin-top: 25px;
+}
+.popular > p{
+    color: white;
+    font-size: 20px;
+}
+.popular-sneak{
+    padding: 0 25px 0 25px;
+    margin-top: 50px;
+}
+.du-lin:active, .duct-link:focus {
+    outline: 0;
+    border: none;
+    -moz-outline-style: none;
+  }
+.du-lin:visited{
+    outline: none;
+}
+.du{
+    transform: scale(0.95);
+    transition: box-shadow 0.5s, transform 0.5s;
+    z-index: -1;
+}
+
+.du:hover{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transform: scale(1);
+}
+.description{
+    color: black;
+}

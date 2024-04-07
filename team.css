@@ -1,0 +1,33 @@
+.ads{
+    background-image: url(lOGO/RSN.jpg);    
+    height: 800px;
+    padding: 20px;
+}
+.card{
+    margin: 10px;
+    margin-top: 20px ;
+    box-shadow: 0;
+    transform: scale(0.95);
+    transition: box-shadow 0.5s, transform 0.5s;
+    justify-content: center;
+}
+.card:hover{
+    transform: scale(1);
+    box-shadow: 5px 20px 30px rgba(0,0,0,0.2);
+    border: solid black 1px ;
+}
+@font-face {
+    font-family: TeXGyreAdventor;
+    src: url(Font/texgyreadventor-bold.otf);
+}
+.name_prod{
+    font-family: TexGyreAdventor;
+    font-weight: bold;
+    font-size: 24pt;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
